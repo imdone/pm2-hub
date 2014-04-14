@@ -1,6 +1,6 @@
 {
   "name": "pm2-hub",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A data, message and rpc hub for processes clustered with pm2",
   "main": "index.js",
   "scripts": {
@@ -11,6 +11,10 @@
     "hub",
     "cluster"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/imdone/pm2-hub.git"
+  },
   "author": {
     "name": "Jesse Piascik ",
     "email": "jesse@piascik.net"
