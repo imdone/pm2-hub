@@ -1,0 +1,26 @@
+{
+  "name": "pm2-hub",
+  "version": "0.0.1",
+  "description": "A data, message and rpc hub for processes clustered with pm2",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd examples; pm2 start master.js -n hub-master"
+  },
+  "keywords": [
+    "pm2",
+    "hub",
+    "cluster"
+  ],
+  "author": {
+    "name": "Jesse Piascik ",
+    "email": "jesse@piascik.net"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "pm2-interface": "~0.1.1",
+    "axon": "~1.0.0",
+    "axon-rpc": "0.0.2",
+    "lodash": "~2.4.1",
+    "debug": "~0.8.0"
+  }
+}
